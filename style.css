@@ -4,19 +4,20 @@ body{
 }
 .moon-background{
     position: absolute;
-    height:100vh;
-    width:50vw;
-    left:30vw;
+    height:100%;
+    width:50%;
+    left:30%;
+    top: 0%;
     background-image: url("https://gallery.yopriceville.com/var/resizes/Free-Clipart-Pictures/Sun-and-Moon-PNG/Moon_Transparent_PNG_Clip_Art-639687983.png?m=1526056688");
     background-repeat: none;
     animation: moveMoon 60s linear infinite ; 
 }
 .walking-bob{
     position: relative;
-    transform: translate(40vw,5vh); 
+    transform: translate(26%,1%); 
 }
 .walking-bob img{
-    width:300px;
+    width:40%;
 }
 @keyframes moveMoon {
     from {transform: rotate(0deg);}
