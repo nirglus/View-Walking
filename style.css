@@ -9,7 +9,7 @@ body{
     left:30%;
     top: 0%;
     background-image: url("https://gallery.yopriceville.com/var/resizes/Free-Clipart-Pictures/Sun-and-Moon-PNG/Moon_Transparent_PNG_Clip_Art-639687983.png?m=1526056688");
-    background-repeat: none;
+    background-repeat: no-repeat;
     animation: moveMoon 60s linear infinite ; 
 }
 .walking-bob{
